@@ -31,7 +31,7 @@ monsterImage.src = "http://s28.postimg.org/6iyxtnzzh/rsz_1slark.jpg";
 
 // Game objects
 var hero = {
-	speed: 512 // movement in pixels per second
+	speed: 1024 // movement in pixels per second
 };
 var monster = {};
 var monstersCaught = 0;
@@ -103,7 +103,7 @@ var render = function () {
 	ctx.font = "24px Helvetica";
 	ctx.textAlign = "left";
 	ctx.textBaseline = "top";
-	ctx.fillText("Goblins caught: " + monstersCaught, 32, 32);
+	ctx.fillText("Slarks caught: " + monstersCaught, 32, 32);
 };
 
 // The main game loop
