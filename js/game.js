@@ -19,7 +19,7 @@ var heroImage = new Image();
 heroImage.onload = function () {
 	heroReady = true;
 };
-heroImage.src = "images/hero.png";
+heroImage.src = "https://yt3.ggpht.com/-mry83z2DLlU/AAAAAAAAAAI/AAAAAAAAAAA/W8RgYxl3w-M/s900-c-k-no/photo.jpg";
 
 // Monster image
 var monsterReady = false;
@@ -27,7 +27,7 @@ var monsterImage = new Image();
 monsterImage.onload = function () {
 	monsterReady = true;
 };
-monsterImage.src = "images/monster.png";
+monsterImage.src = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/046/2af/353e89b.jpg";
 
 // Game objects
 var hero = {
