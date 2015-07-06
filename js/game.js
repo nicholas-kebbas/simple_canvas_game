@@ -1,8 +1,8 @@
 // Create the canvas
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
-canvas.width = 512;
-canvas.height = 480;
+canvas.width = 1024;
+canvas.height = 960;
 document.body.appendChild(canvas);
 
 // Background image
@@ -19,7 +19,7 @@ var heroImage = new Image();
 heroImage.onload = function () {
 	heroReady = true;
 };
-heroImage.src = "https://yt3.ggpht.com/-mry83z2DLlU/AAAAAAAAAAI/AAAAAAAAAAA/W8RgYxl3w-M/s900-c-k-no/photo.jpg";
+heroImage.src = "https://pbs.twimg.com/profile_images/465187535094706176/XLJqczoM.jpeg";
 
 // Monster image
 var monsterReady = false;
