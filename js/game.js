@@ -1,8 +1,8 @@
 // Create the canvas
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
-canvas.width = 1024;
-canvas.height = 960;
+canvas.width = 512;
+canvas.height = 480;
 document.body.appendChild(canvas);
 
 // Background image
@@ -19,7 +19,7 @@ var heroImage = new Image();
 heroImage.onload = function () {
 	heroReady = true;
 };
-heroImage.src = "https://pbs.twimg.com/profile_images/465187535094706176/XLJqczoM.jpeg";
+heroImage.src = "http://s8.postimg.org/pbxmv8irl/rsz_yi.jpg";
 
 // Monster image
 var monsterReady = false;
@@ -27,7 +27,7 @@ var monsterImage = new Image();
 monsterImage.onload = function () {
 	monsterReady = true;
 };
-monsterImage.src = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/046/2af/353e89b.jpg";
+monsterImage.src = "http://s29.postimg.org/ypyqm0hmb/rsz_slark.jpg";
 
 // Game objects
 var hero = {
